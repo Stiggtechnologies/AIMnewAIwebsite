@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aimphysiotherapy.ca/sitemap.xml
+
+# Crawl rate
+Crawl-delay: 1
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Allow important pages
+Allow: /services/
+Allow: /about
+Allow: /contact
+Allow: /book-appointment
+Allow: /blog
