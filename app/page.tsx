@@ -8,6 +8,11 @@ import { ReviewBlock } from '@/components/reviews/review-block';
 import { ReviewSchema } from '@/components/reviews/review-schema';
 import { supabase } from '@/lib/supabase';
 
+export const metadata = {
+  title: 'Physiotherapy in Edmonton | AIM Physiotherapy',
+  description: 'Expert physiotherapy in Edmonton for pain relief, injury recovery, and performance rehab. Same‑day appointments available.',
+};
+
 async function getFeaturedReviews() {
   const { data: reviews } = await supabase
     .from('reviews')
@@ -24,7 +29,7 @@ export default async function Home() {
   return (
     <>
       <ReviewSchema reviews={featuredReviews} />
-      <PageTracker pageTitle="Home - Alberta Injury Management" />
+      <PageTracker pageTitle="Home - AIM Physiotherapy" />
       <section className="relative overflow-hidden bg-gradient-to-b from-aim-steel-blue to-white py-20 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">

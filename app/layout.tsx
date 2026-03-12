@@ -10,22 +10,22 @@ import { ClientTrackingWrapper } from '@/components/providers/client-tracking-wr
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://albertainjurymanagement.ca'),
-  title: 'Alberta Injury Management | Expert Physiotherapy & Rehabilitation in Edmonton',
-  description: 'AIM provides outcome-based physiotherapy, WCB rehabilitation, MVA recovery, and return-to-work programs across Alberta. Expert injury management for lasting results.',
-  keywords: 'physiotherapy Edmonton, WCB rehabilitation Alberta, MVA recovery, injury management, return to work programs, workplace injury prevention',
+  metadataBase: new URL('https://aimphysiotherapy.ca'),
+  title: 'AIM Physiotherapy | Physiotherapy in Edmonton',
+  description: 'AIM Physiotherapy provides expert physiotherapy, injury rehab, and recovery programs in Edmonton. Same‑day appointments and evidence‑based care.',
+  keywords: 'physiotherapy Edmonton, physiotherapist Edmonton, sports physiotherapy, back pain treatment, orthotics Edmonton, concussion rehab, vestibular therapy',
   openGraph: {
     type: 'website',
     locale: 'en_CA',
-    url: 'https://albertainjurymanagement.ca',
-    siteName: 'Alberta Injury Management',
-    title: 'Alberta Injury Management | Expert Physiotherapy & Rehabilitation',
-    description: 'Outcome-based physiotherapy and injury management for Alberta. Expert care for work injuries, MVA recovery, and athletic performance.',
+    url: 'https://aimphysiotherapy.ca',
+    siteName: 'AIM Physiotherapy',
+    title: 'AIM Physiotherapy | Physiotherapy in Edmonton',
+    description: 'Expert physiotherapy in Edmonton for pain relief, injury recovery, and performance rehab. Book your assessment today.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Alberta Injury Management',
-    description: 'Expert physiotherapy and injury management in Alberta',
+    title: 'AIM Physiotherapy',
+    description: 'Expert physiotherapy in Edmonton for pain relief and recovery',
   },
 };
 

@@ -205,7 +205,7 @@ export function generateLocalBusinessSchema(location: {
 export function generateServiceSchema(
   serviceName: string,
   description: string,
-  providerName: string = 'Alberta Injury Management'
+  providerName: string = 'AIM Physiotherapy'
 ): ServiceSchema {
   return {
     '@context': 'https://schema.org',

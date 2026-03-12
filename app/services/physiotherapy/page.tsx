@@ -11,8 +11,8 @@ import { ReviewSchema } from '@/components/reviews/review-schema';
 import { supabase } from '@/lib/supabase';
 
 export const metadata = {
-  title: 'Physiotherapy in Edmonton | Alberta Injury Management',
-  description: 'Outcome-focused physiotherapy in Edmonton. Coordinated care for injured workers, seniors, and active individuals.',
+  title: 'Physiotherapy in Edmonton | AIM Physiotherapy',
+  description: 'Outcome‑focused physiotherapy in Edmonton for pain relief, injury recovery, and return‑to‑activity care.',
 };
 
 async function getServiceReviews(serviceTag: string) {
