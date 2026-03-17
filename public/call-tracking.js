@@ -14,7 +14,7 @@
   // Configuration
   const CONFIG = {
     supabaseUrl: 'https://optlghedswctsklcxlkn.supabase.co',
-    supabaseAnonKey: 'PASTE_YOUR_SUPABASE_ANON_KEY_HERE', // Get from: https://supabase.com/dashboard/project/optlghedswctsklcxlkn/settings/api
+    supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9wdGxnaGVkc3djdHNrbGN4bGtuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgxOTYyNjEsImV4cCI6MjA4Mzc3MjI2MX0.E-1lkqbOgdGy6yY5-7vTvF_GswpUnU5YvJvwqECT0t0',
     sessionExpireMinutes: 120,
     defaultPhone: '+1 (780) 250-8188', // Default AIM phone number
     
