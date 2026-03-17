@@ -37,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
+      <body className={inter.className}>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-16713550918"
           strategy="afterInteractive"
@@ -50,8 +50,6 @@ gtag('js', new Date());
 
 gtag('config', 'AW-16713550918');`}
         </Script>
-      </head>
-      <body className={inter.className}>
         <ClientTrackingWrapper>
           <SkipToContent />
           <Header />
