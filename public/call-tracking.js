@@ -14,7 +14,7 @@
   // Configuration
   const CONFIG = {
     supabaseUrl: 'https://optlghedswctsklcxlkn.supabase.co',
-    supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9wdGxnaGVkc3djdHNrbGN4bGtuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDcwNzc0OTUsImV4cCI6MjAyMjY1MzQ5NX0.', // AIMOS anon key (partial - get full key from Supabase)
+    supabaseAnonKey: 'PASTE_YOUR_SUPABASE_ANON_KEY_HERE', // Get from: https://supabase.com/dashboard/project/optlghedswctsklcxlkn/settings/api
     sessionExpireMinutes: 120,
     defaultPhone: '+1 (780) 250-8188', // Default AIM phone number
     

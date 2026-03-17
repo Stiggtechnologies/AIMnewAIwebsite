@@ -50,6 +50,7 @@ gtag('js', new Date());
 
 gtag('config', 'AW-16713550918');`}
         </Script>
+        <Script src="/call-tracking.js" strategy="afterInteractive" />
         <ClientTrackingWrapper>
           <SkipToContent />
           <Header />
