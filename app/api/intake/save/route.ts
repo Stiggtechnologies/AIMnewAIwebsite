@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabase';
 import { checkRateLimit, getRateLimitHeaders } from '@/lib/rate-limiter';
+import { sendIntakeNotification } from '@/lib/email';
 
 export async function POST(request: NextRequest) {
   const clientId = request.headers.get('x-forwarded-for') || 'unknown';
@@ -60,6 +61,11 @@ export async function POST(request: NextRequest) {
         );
       }
 
+      // Send email notification for completed intakes
+      if (status === 'submitted' || status === 'completed') {
+        await sendIntakeNotification(data);
+      }
+
       return NextResponse.json(
         { success: true, id: data.id, status: data.status },
         { headers: getRateLimitHeaders(rateLimit) }
@@ -85,6 +91,11 @@ export async function POST(request: NextRequest) {
           { error: 'Failed to create intake' },
           { status: 500 }
         );
+      }
+
+      // Send email notification for completed intakes
+      if (status === 'submitted' || status === 'completed') {
+        await sendIntakeNotification(data);
       }
 
       return NextResponse.json(
