@@ -104,7 +104,7 @@ export default function AIDisclosurePage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-aim-slate">
               <li>Call us directly at (780) 250-8188</li>
-              <li>Email us at info@albertainjurymanagement.ca</li>
+              <li>Email us at aim2recover@albertainjurymanagement.ca</li>
               <li>Visit our clinic in person</li>
               <li>Request human assistance at any time during an AI conversation</li>
             </ul>
@@ -116,7 +116,7 @@ export default function AIDisclosurePage() {
               We welcome your feedback on our use of AI technology. If you have concerns, suggestions, or questions about AI interactions:
             </p>
             <div className="bg-aim-steel-blue p-6 rounded-lg">
-              <p className="text-aim-slate">Email: ai-feedback@albertainjurymanagement.ca</p>
+              <p className="text-aim-slate">Email: aim2recover@albertainjurymanagement.ca</p>
               <p className="text-aim-slate">Phone: (780) 250-8188</p>
             </div>
           </section>

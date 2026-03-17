@@ -3,13 +3,13 @@ export const DEFAULT_LOCATION = {
   slug: "edmonton-main-hub",
   name: "Alberta Injury Management – Main Hub Clinic",
   phone: "780-250-8188",
-  email: "info@albertainjurymanagement.ca"
+  email: "aim2recover@albertainjurymanagement.ca"
 };
 
 export const CENTRAL_PHONE = "780-250-8188";
 export const CENTRAL_PHONE_DISPLAY = "(780) 250-8188";
 export const CENTRAL_PHONE_TEL = "+17802508188";
-export const CENTRAL_EMAIL = "info@albertainjurymanagement.ca";
+export const CENTRAL_EMAIL = "aim2recover@albertainjurymanagement.ca";
 
 export const LOCATIONS = [
   {
@@ -22,7 +22,7 @@ export const LOCATIONS = [
     postal_code: "T6E 5W3",
     country: "Canada",
     phone: "780-250-8188",
-    email: "info@albertainjurymanagement.ca",
+    email: "aim2recover@albertainjurymanagement.ca",
     latitude: 53.5212,
     longitude: -113.4696,
     hours: {
@@ -56,7 +56,7 @@ export const LOCATIONS = [
     postal_code: "T5S 1J7",
     country: "Canada",
     phone: "780-250-8188",
-    email: "info@albertainjurymanagement.ca",
+    email: "aim2recover@albertainjurymanagement.ca",
     latitude: 53.5866,
     longitude: -113.6243,
     hours: {

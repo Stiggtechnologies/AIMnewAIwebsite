@@ -77,7 +77,7 @@ export default function AccessibilityPage() {
             </p>
             <div className="bg-aim-steel-blue p-6 rounded-lg">
               <p className="font-medium text-aim-navy mb-2">Contact Us:</p>
-              <p className="text-aim-slate">Email: accessibility@albertainjurymanagement.ca</p>
+              <p className="text-aim-slate">Email: aim2recover@albertainjurymanagement.ca</p>
               <p className="text-aim-slate">Phone: (780) 250-8188</p>
               <p className="text-aim-slate mt-4">
                 We aim to respond to accessibility feedback within 3 business days.

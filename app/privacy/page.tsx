@@ -115,7 +115,7 @@ export default function PrivacyPage() {
               <p className="font-medium text-aim-navy">Alberta Injury Management</p>
               <p className="text-aim-slate">Privacy Officer</p>
               <p className="text-aim-slate">11420 170 St NW, Edmonton, AB T5S 1J7</p>
-              <p className="text-aim-slate">Email: privacy@albertainjurymanagement.ca</p>
+              <p className="text-aim-slate">Email: aim2recover@albertainjurymanagement.ca</p>
               <p className="text-aim-slate">Phone: (780) 250-8188</p>
             </div>
           </section>

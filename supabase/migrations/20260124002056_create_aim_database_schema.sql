@@ -330,7 +330,7 @@ VALUES (
   'AIM Performance West',
   '{"line_1": "11420 170 St NW", "city": "Edmonton", "province": "AB", "postal_code": "T5S 1J7", "country": "Canada"}',
   '(780) 250-8188',
-  'info@albertainjurymanagement.ca',
+  'aim2recover@albertainjurymanagement.ca',
   '{"monday": "8:00 AM – 6:00 PM", "tuesday": "8:00 AM – 6:00 PM", "wednesday": "8:00 AM – 6:00 PM", "thursday": "8:00 AM – 6:00 PM", "friday": "8:00 AM – 5:00 PM"}',
   ARRAY['Physiotherapy', 'WCB Rehabilitation', 'Return-to-Work Programs', 'Performance Rehab', 'Functional Capacity Evaluations'],
   true

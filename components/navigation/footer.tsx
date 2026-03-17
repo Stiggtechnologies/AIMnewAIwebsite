@@ -56,7 +56,7 @@ export function Footer() {
                 <Phone className="h-6 w-6" aria-hidden="true" />
               </a>
               <a
-                href="mailto:info@albertainjurymanagement.ca"
+                href="mailto:aim2recover@albertainjurymanagement.ca"
                 className="text-gray-300 hover:text-aim-teal transition-colors"
                 aria-label="Email Alberta Injury Management"
               >

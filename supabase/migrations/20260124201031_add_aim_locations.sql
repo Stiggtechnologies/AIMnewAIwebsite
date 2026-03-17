@@ -56,7 +56,7 @@ INSERT INTO locations (
     "country": "Canada"
   }'::jsonb,
   '780-250-8188',
-  'info@albertainjurymanagement.ca',
+  'aim2recover@albertainjurymanagement.ca',
   '{
     "monday": "8:00 AM – 6:00 PM",
     "tuesday": "8:00 AM – 6:00 PM",
@@ -94,7 +94,7 @@ INSERT INTO locations (
     "country": "Canada"
   }'::jsonb,
   '780-250-8188',
-  'info@albertainjurymanagement.ca',
+  'aim2recover@albertainjurymanagement.ca',
   '{
     "monday": "8:00 AM – 6:00 PM",
     "tuesday": "8:00 AM – 6:00 PM",

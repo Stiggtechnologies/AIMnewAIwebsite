@@ -21,7 +21,7 @@ export default function EdmontonWestLocationPage() {
       country: 'Canada',
     },
     phone: '(780) 250-8188',
-    email: 'info@albertainjurymanagement.ca',
+    email: 'aim2recover@albertainjurymanagement.ca',
     hours: {
       monday: '8:00 AM – 6:00 PM',
       tuesday: '8:00 AM – 6:00 PM',
@@ -100,8 +100,8 @@ export default function EdmontonWestLocationPage() {
                       <Mail className="h-6 w-6 flex-none text-aim-teal mt-1" aria-hidden="true" />
                       <div>
                         <p className="font-semibold text-aim-navy">Email</p>
-                        <a href="mailto:info@albertainjurymanagement.ca" className="text-aim-teal hover:underline">
-                          info@albertainjurymanagement.ca
+                        <a href="mailto:aim2recover@albertainjurymanagement.ca" className="text-aim-teal hover:underline">
+                          aim2recover@albertainjurymanagement.ca
                         </a>
                       </div>
                     </div>

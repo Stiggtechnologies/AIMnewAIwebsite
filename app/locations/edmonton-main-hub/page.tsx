@@ -23,7 +23,7 @@ export default function MainHubLocationPage() {
       "addressCountry": "CA"
     },
     "telephone": "780-250-8188",
-    "email": "info@albertainjurymanagement.ca",
+    "email": "aim2recover@albertainjurymanagement.ca",
     "areaServed": "Alberta",
     "medicalSpecialty": "Physiotherapy"
   };
@@ -81,8 +81,8 @@ export default function MainHubLocationPage() {
                     <Mail className="h-4 w-4" />
                     Email
                   </p>
-                  <a href="mailto:info@albertainjurymanagement.ca" className="text-aim-teal hover:underline">
-                    info@albertainjurymanagement.ca
+                  <a href="mailto:aim2recover@albertainjurymanagement.ca" className="text-aim-teal hover:underline">
+                    aim2recover@albertainjurymanagement.ca
                   </a>
                 </div>
               </CardContent>
