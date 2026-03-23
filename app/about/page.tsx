@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { LazyChatWidget } from '@/components/ai/lazy-chat-widget';
 import { Card, CardContent } from '@/components/ui/card';
 import { AlertTriangle, Star } from 'lucide-react';

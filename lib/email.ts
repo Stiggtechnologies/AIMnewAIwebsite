@@ -1,6 +1,9 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy init — avoids build-time crash when RESEND_API_KEY env var is absent
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 export async function sendIntakeNotification(intakeData: {
   id: string;
@@ -38,7 +41,7 @@ View in Supabase: https://supabase.com/dashboard/project/optlghedswctsklcxlkn/ed
   `.trim();
 
   try {
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'AIM Intake <intake@aimphysiotherapy.ca>',
       to: 'aim2recover@albertainjurymanagement.ca',
       subject: `New Intake Form: ${patientName}`,

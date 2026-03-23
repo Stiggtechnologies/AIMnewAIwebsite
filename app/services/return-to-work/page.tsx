@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import Link from 'next/link';
 import { CheckCircle, TrendingUp, Users, Shield, FileText, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
