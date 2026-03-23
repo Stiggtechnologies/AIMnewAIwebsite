@@ -12,6 +12,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { CENTRAL_PHONE_DISPLAY, CENTRAL_PHONE_TEL } from '@/lib/config';
+import { trackPhoneClick, trackBookingClick } from '@/components/providers/google-analytics';
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -144,7 +145,7 @@ export function Header() {
             asChild
             className="border-aim-navy text-aim-navy hover:bg-aim-steel-blue whitespace-nowrap"
           >
-            <Link href={`tel:${CENTRAL_PHONE_TEL}`} className="flex items-center gap-1">
+            <Link href={`tel:${CENTRAL_PHONE_TEL}`} className="flex items-center gap-1" onClick={() => trackPhoneClick('header')}>
               <Phone className="h-4 w-4" aria-hidden="true" />
               <span className="sr-only">Call us at </span>
               {CENTRAL_PHONE_DISPLAY}
@@ -155,7 +156,7 @@ export function Header() {
             asChild
             className="bg-aim-cta-primary hover:bg-aim-cta-primary/90 text-white whitespace-nowrap"
           >
-            <Link href="/book">Book Appointment</Link>
+            <Link href="/book" onClick={() => trackBookingClick('header')}>Book Appointment</Link>
           </Button>
         </div>
       </nav>

@@ -7,6 +7,7 @@ import { SkipToContent } from '@/components/layout/skip-to-content';
 import { Toaster } from '@/components/ui/toaster';
 import { ClientTrackingWrapper } from '@/components/providers/client-tracking-wrapper';
 import Script from 'next/script';
+import GoogleAnalytics from '@/components/providers/google-analytics';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -38,18 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16713550918"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads-gtag" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);} 
-
-gtag('js', new Date());
-
-gtag('config', 'AW-16713550918');`}
-        </Script>
+        <GoogleAnalytics />
         <Script src="/call-tracking.js" strategy="afterInteractive" />
         <ClientTrackingWrapper>
           <SkipToContent />
